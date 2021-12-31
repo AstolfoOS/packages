@@ -26,7 +26,7 @@ sha256sums=('e03bede3d258d680548696623d5979c6edf03272e801a813c81ba5a5c64f4f82'
             '90d879374f77bac47f132164c1e7fc4892e994ff1d1ac376efa0c1c26ea37273'
             '4d7b647169063dfedbff5e1e22cee77bd1a4183dbcfd5e802e68939da4bbf733'
             'd9cd8a77d9e0aa5e90d7f4ed74c8745c17b525e720e28e4c44364150003c35f9'
-            'c774dbbcaea38ee1c1141d0daf82aa8177bfb26aca896d6f0c4ccdc902f6ac42'
+            'e8503f04a0acd0650be0d885baf580afc44524f6016776bc57dfad5ab3967c5e'
             'dad04a370e488aa85fb0a813a5c83cf6fd981ce01883fc59685447b092de84b5'
             '8ca2d8eef6fb5143c9ef7e9174ccfef59ac7ad2deee243574cd10c763156cc10'
             'c8ee7a9faf798caab178ec51afae4146f1efd8a716b7acedf28345b6c75f9697'
@@ -40,9 +40,9 @@ sha256sums=('e03bede3d258d680548696623d5979c6edf03272e801a813c81ba5a5c64f4f82'
             '89e43a0b7028f52d5c8e7fb961d962c4b4f4e9595880a6157274ddb2c7c0b6b4'
             'b5b28f395583d141d88c0b955cd05124f9b8cdf003feab01e55885b8e8c1303e'
             'f17efd1c6480c5db1fdab4a0e3cfcd4baa44a3e1ae1210aebeb40f8d5c82f742'
-            'SKIP'
-            'SKIP'
-            'SKIP')
+            '2b2c4704f3e77248bd99f1229af4bcf34350579c7f5fbff3b8fdcae681d04633'
+            '76dfee1bce2f09a52f52e1abd0b41e8ea4e9f165fdd08fb13ac13ccd826cc679'
+            'c00c3ac205fc5fc1258b78863c83a44ea47f8c0cf71820ca88db0bc50c727a1b')
 
 prepare() {
   cd "$srcdir"
