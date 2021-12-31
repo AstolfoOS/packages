@@ -1,0 +1,26 @@
+# Maintainer: Laurin Neff <laurin at laurinneff dot ch>
+
+_commit='e6b2b9a8e2d915aa8d4f37787cf44ae65773b1e1'
+
+pkgname=astolfos-backgrounds
+pkgver=1.0
+pkgrel=1
+pkgdesc="Background images and data for GNOME"
+url="https://github.com/AstolfoOS/$pkgname"
+arch=(any)
+makedepends=(meson)
+license=(GPL3)
+source=("$pkgname::git+$url.git#commit=$_commit")
+sha256sums=('SKIP')
+
+build() {
+  cd "$srcdir"
+  arch-meson $pkgname build
+}
+
+package() {
+  cd "$srcdir"
+  DESTDIR="$pkgdir" meson install -C build
+}
+
+# vim:set sw=2 et:
